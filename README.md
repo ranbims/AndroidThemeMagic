@@ -1,6 +1,10 @@
 # AndroidThemeMagic
 Automatic multiple theme support for Android Apps. It is a magic!!
 
+## Demo
+
+![](README.md)
+
 ## Goal
 
 Android SDK doesn't support switching theme dynamically without restarting activity. This project targets to build framework to support that. The basic idea is to hold all views which need to apply new property when theme changes. And the views are able to locate their corresponding resource values against different themes. Also for the framework, it should be easy to extend more themes.
