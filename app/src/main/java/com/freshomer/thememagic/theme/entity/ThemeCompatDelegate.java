@@ -13,13 +13,8 @@ import com.freshomer.thememagic.theme.ThemeLayoutInflaterFactory;
 import com.freshomer.thememagic.theme.ThemeManager;
 import com.freshomer.thememagic.theme.ThemeUtils;
 
-/**
- * Created by ranbi on 18-8-6.
- */
-
 public class ThemeCompatDelegate implements ThemeItem {
 
-    // Todo(ranbi): Support Activity here.
     public final AppCompatActivity mActivity;
 
     public ThemeCompatDelegate(AppCompatActivity activity) {
@@ -48,7 +43,7 @@ public class ThemeCompatDelegate implements ThemeItem {
     }
 
     public int getDefaultWindowBackgroundId() {
-        return R.color.defaultBackground;
+        return R.color.default_background;
     }
 
     public void onCreate(Bundle savedInstanceState) {

@@ -42,7 +42,7 @@ public class ThemeCompatActivity extends AppCompatActivity implements ThemeWindo
 
     @Override
     public int getDefaultWindowBackgroundId() {
-        return R.color.defaultBackground;
+        return R.color.default_background;
     }
 
     @Override
